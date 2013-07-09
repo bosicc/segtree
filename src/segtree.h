@@ -8,6 +8,7 @@
 template <typename T>
 class SegmentTree {
 public:
+// Chto za moveton pisat telo fynkcii in header file. Neever do it. Just move it in another C file. Best regards, Borys.
   SegmentTree(const std::vector<T>& data,
               std::function<T(T, T)> f = std::plus <T>()) {
     this->f = f;
